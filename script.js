@@ -8,7 +8,7 @@ const resetButton = document.getElementById('reset');
 let counter = 0;
 
 function updateCounter() {
-  countElement.textContent = counter;
+  count.textContent = counter;
 }
 
 incrementButton.addEventListener('click', () => {
